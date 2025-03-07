@@ -1,0 +1,105 @@
+@media screen and (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        font-family: "Roboto Mono", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--text-light);
+        background-color: var(--primary-bg);
+        width: 100vw;
+    }
+
+    header {
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
+        height: 7rem;
+    }
+
+    header span {
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: var(--text-light);
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--secondary-bg);
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li:hover {
+        background-color: var(--text-light);
+        color: var(--text-dark);
+        cursor: pointer;
+    }
+
+    nav ul li:hover a {
+        color: var(--text-dark);
+    }
+
+    nav ul li a {
+        color: var(--text-light);
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    h1 {
+        grid-column: span 2;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .card {
+        background-color: var(--secondary-bg);
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .card h2 {
+        color: var(--text-dark);
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        background-color: var(--text-light);
+        border-radius: 8px 8px 0 0;
+        padding: 0.5rem;
+    }
+
+    .card ul {
+        text-align: left;
+        margin: 0 2rem 2rem 2rem;
+        list-style: none;
+    }
+
+    .card p {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .card a {
+        color: var(--text-light);
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
