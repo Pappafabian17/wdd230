@@ -53,6 +53,15 @@ header span {
 #menu.open::before {
 	content: "X";
 }
+
+#mode {
+	position: absolute;
+	top: -3px;
+	right: 19px;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
 .navigation {
   display: flex;
   flex-direction: column;
