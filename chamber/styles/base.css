@@ -1,0 +1,86 @@
+
+:root{
+    --argentineBlue: #63adf2;
+    --gray:#545e75;
+    --uranianBlue: #a7cced;
+    --yinmBlue:#304d6d;
+    --airBlue: #82a0bc;
+
+}
+body {
+    font-family: 'Big shoulder', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--uranianBlue);
+    color: #ffffff;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before{
+    content:"X"
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--yinmBlue);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin : 2rem 0;
+}
+.header nav{
+    display: none;
+}
+.header nav.open{
+    display: block;
+    width: 100%;
+    
+}
+.header nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    
+}
+.header nav ul li{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.header nav ul li:hover{
+    background-color: var(--airBlue);
+}
+
+.header nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.header nav ul li:hover a {
+    color: #000000; 
+}
+
+footer{
+    color: #333;
+}
