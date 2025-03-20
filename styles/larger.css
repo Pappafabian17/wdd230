@@ -1,11 +1,9 @@
 @media screen and (min-width: 768px) {
     
-
-    
-    
     #menu {
-		display: none; 
-	}
+        display: none; 
+    }
+
     .navigation {
         flex-direction: row;
     }
@@ -14,11 +12,11 @@
         display: block;
     }
 
-
-    
-
     main {
         max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem;
     }
 
     h1 {
@@ -27,16 +25,67 @@
         text-align: center;
     }
 
-
-    .card h2 {
-        
-        padding: 0.5rem;
+    .hero-container {
+        grid-column: span 2; 
+        width: 100%;
+        position: relative;
     }
 
-   
+    .hero-container picture {
+        width: 100%;
+        display: block;
+    }
+
+    .hero-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px; 
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        white-space: nowrap; 
+        border-radius: 5px;
+    }
+
+    .card {
+        background-color: var(--secondary-bg);
+        border-radius: 8px;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .card h2 {
+        padding: 0.5rem;
+        background-color: var(--text-light);
+        color: var(--text-dark);
+        border-radius: 8px 8px 0 0;
+    }
+
     .card p {
         padding: 1rem;
     }
 
-    
+    .learning-activities {
+        grid-column: 1; 
+    }
+
+    .information {
+        grid-column: 2; 
+    }
+    iframe {
+        grid-column: span 2;
+        width: 100%;
+        height: 450px; 
+        border-radius: 8px; 
+    }
 }

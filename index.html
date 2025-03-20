@@ -42,6 +42,15 @@
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
+    
+        <div class="hero-container">
+            <picture>
+                <source srcset="./images/salta_argentina_temple.webp" media="(min-width: 600px)">
+                <img src="./images/salta_argentina_temple.webp" alt="Salta Argentina Temple" width="400" height="300">
+            </picture>
+            <div class="overlay">Salta Argentina Temple</div>
+        </div>
+    
         <section class="card learning-activities">
             <h2>Learning Activities</h2>
             <ul>
@@ -58,9 +67,15 @@
             <h2>Information</h2>
             <p>Buenos Aires, Argentina</p>
             <p>34 C - sunshine</p>
-            <p>Page Visits: 15</p>
+            <p>
+                Page Visits:
+                <span class="visit-display"></span>
+            </p>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80594.26278177387!2d-57.66861158471137!3d-38.00026258330331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1742503959529!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
+    
+    
     <footer>
         <div class="footer-container">
             <p></p>
@@ -71,5 +86,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburguer-menu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>
