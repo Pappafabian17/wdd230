@@ -79,5 +79,28 @@
       width: 80%;
       height: 326px;
     }
+    /*Form*/
+    .form-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    form {
+      flex: 2;
+      margin-right: 2rem;
+    }
+  
+    .membership-benefits {
+      flex: 1;
+      background: #ffffff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .membership-benefits ul {
+      padding-left: 1rem;
+    }
   }
   
