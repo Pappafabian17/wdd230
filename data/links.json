@@ -30,8 +30,8 @@
         "week": "Week 3",
         "links": [
           {
-            "url": "week03/images/landscape.webp",
-            "title": "WebP"
+            "url": "week03/index.html",
+            "title": "Responsive Design"
           }
         ]
       },
@@ -49,7 +49,7 @@
         "links": [
           {
             "url": "week05/index.html",
-            "title": "DOM Manipulation"
+            "title": "Json API and Services"
           }
         ]
       }
