@@ -30,7 +30,6 @@ function displayLinks(weeks) {
 
             li.appendChild(a);
 
-            // Separador entre múltiples links
             if (index < week.links.length - 1) {
                 li.appendChild(document.createTextNode(" | "));
             }
@@ -40,4 +39,4 @@ function displayLinks(weeks) {
     });
 }
 
-getLinks(); // Llamada inicial
+getLinks(); 
