@@ -23,6 +23,9 @@
           {
             "url": "https://codepen.io/Joel-Fabian/pen/mydMNKX",
             "title": "Pen"
+          },{
+            "url": "week02/design.html",
+            "title":"design"
           }
         ]
       },
@@ -39,8 +42,8 @@
         "week": "Week 4",
         "links": [
           {
-            "url": "week04/index.html",
-            "title": "Form Validation"
+            "url": "https://codepen.io/blazzard-jason/pen/mdGqKMx",
+            "title": "Form Input"
           }
         ]
       },
