@@ -102,5 +102,8 @@
     .membership-benefits ul {
       padding-left: 1rem;
     }
+    .spotlight-grid{
+      flex-direction: row;
+    }
   }
   
