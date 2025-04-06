@@ -133,7 +133,6 @@
     background-color: var(--accentColor);
   }
   
-  /* General Sections */
   section {
     padding: 2rem 1rem;
     max-width: 1200px;
@@ -292,4 +291,14 @@
   .view-toggle button:hover {
     background-color: var(--secondaryColor);
   }
-  
+  #forecast-list li{
+    display: flex;
+    align-items: center;
+  }
+  .spotlight-grid{
+    display: flex;
+    gap: 2rem;
+  }
+  .spotlights{
+    display: block;
+  }

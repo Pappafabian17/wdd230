@@ -35,7 +35,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="directory.html">Business Directory</a></li>
         <li><a href="events.html">Events</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="join.html">Contact</a></li>
       </ul>
     </nav>    
   </header>
@@ -50,7 +50,6 @@
       </div>
     </section>
 
-    <!-- Call to Action Section -->
     <section class="cta">
       <a href="join.html" class="cta-button">Join the Chamber of Commerce</a>
     </section>
@@ -62,35 +61,31 @@
         <h3>2025 Business Fair</h3>
         <p>Join our annual fair to connect with other local businesses.</p>
       </article>
-      <!-- Additional event articles can be added -->
+     
     </section>
 
     <!-- Weather Section -->
     <section class="weather">
       <h2>Current Weather</h2>
       <div class="weather-card">
-        <p>City: Mar del Plata</p>
-        <p>Temperature: 22°C</p>
-        <p>Condition: Sunny</p>
+        <p id="city">City: Mar del Plata</p>
+        <p id="temperature">Temperature: </p>
+        <p id="description">Condition: </p>
+        <img id="weather-icon" src="" alt="Weather Icon" width="64" height="64">
+        <div id="forecast">
+          <h3>3-Day Forecast</h3>
+          <ul id="forecast-list"></ul>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="spotlights">
+      <h2>Business Spotlights</h2>
+      <div id="spotlight-container" class="spotlight-grid">
       </div>
     </section>
 
-    <!-- Business Spotlights Section -->
-    <section class="spotlights">
-      <h2>Business Spotlights</h2>
-      <div class="spotlight">
-        <h3>Company One</h3>
-        <p>Brief description of Company One.</p>
-      </div>
-      <div class="spotlight">
-        <h3>Company Two</h3>
-        <p>Brief description of Company Two.</p>
-      </div>
-      <div class="spotlight">
-        <h3>Company Three</h3>
-        <p>Brief description of Company Three.</p>
-      </div>
-    </section>
   </main>
   
   <footer>
@@ -107,5 +102,7 @@
 
   <script src="scripts/menu.js"></script>
   <script src="scripts/getDate.js" ></script>
+  <script src="scripts/getWeather.js"></script>
+  <script src="scripts/spotlight.js"></script>
 </body>
 </html>
